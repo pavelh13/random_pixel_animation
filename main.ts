@@ -13,7 +13,7 @@ basic.forever(function () {
         ROW = seznam[pořadí] / 5
         for (let pořadí = 0; pořadí <= 255; pořadí++) {
             led.plotBrightness(COL, ROW, 255 - pořadí)
-            control.waitMicros(2000)
+            control.waitMicros(1000)
         }
     }
     for (let pořadí = 0; pořadí <= 10; pořadí++) {
